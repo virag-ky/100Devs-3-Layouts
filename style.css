@@ -35,3 +35,16 @@ section {
 .bottom-sections {
   width: 50%;
 }
+
+#main-section {
+  width: 100%;
+}
+
+#bottom-first-section {
+  width: 30%;
+  background-color: darkcyan;
+}
+
+#bottom-second-section {
+  width: 70%;
+}
