@@ -12,7 +12,7 @@ body {
   color: beige;
 }
 
-header, footer, section {
+header, footer, section, aside, article {
   border: 2px solid black;
   display: flex;
   align-items: center;
@@ -40,11 +40,31 @@ section {
   width: 100%;
 }
 
-#bottom-first-section {
+aside {
+  background: darkcyan;
+  float: left;
+  height: 30%;
+}
+
+#aside-2 {
   width: 30%;
-  background-color: darkcyan;
+}
+
+#aside-3, article {
+  height: 60%;
+  width: 20%;
 }
 
 #bottom-second-section {
   width: 70%;
+}
+
+#main-section3 {
+  height: 60%;
+  width: 40%;
+}
+
+article {
+  background: darkolivegreen;
+  float: right;
 }
