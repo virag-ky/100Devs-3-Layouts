@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  color: beige;
+}
+
+header, footer, section {
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header, footer {
+  height: 20%;
+  clear: both;
+  background: rgb(202, 106, 68);
+}
+
+section {
+  width: 33.333%;
+  height:30%;
+  float: left;
+  background: rgb(133, 136, 136);
+}
+
+.bottom-sections {
+  width: 50%;
+}
